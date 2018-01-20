@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop-up gallery</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/lightbox.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="responsive-menu">
+            <button class="menu-icon" id="menu-button" type="button">&#9776;</button>
+        </div>
+        <nav id="menu">
+            <ul>
+                <li class="main-nav-anchor"><a href="">All</a></li>
+                <li><a href="#">Places</a></li>
+                <li><a href="#">People</a></li>
+                <li><a href="#">Food</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div class="gallery">
+            <a href="gallery/warsaw-center.jpg" data-lightbox="gallery" data-title="Warsaw, Old Town | Skitterphoto"><img src="gallery/warsaw-center-small.jpeg" alt="Warsaw"></a>
+            <a href="gallery/Mazury.jpeg" data-lightbox="gallery" data-title="Mazuria Lake District | gumpczarter.pl"><img src="gallery/mazury-small.jpeg" alt="Mazuria Lake District"></a>
+            <a href="gallery/wroclaw.jpg" data-lightbox="gallery" data-title="Wroclaw, Old Town | visitwroclaw.eu"><img src="gallery/wroclaw-small.jpeg" alt="Wroclaw - Old Town"></a>
+            <a href="gallery/sea.jpg" data-lightbox="gallery" data-title="Baltic Sea | 1001miejsc.pl"><img src="gallery/sea-small.jpeg" alt="Baltic Sea"></a>
+            <a href="gallery/cracow-2.jpg" data-lightbox="gallery" data-title="Cracow, Old Town | krakow-atrakcje.pl"><img src="gallery/cracow-2-small.jpeg" alt="Cracow"></a>
+            <a href="gallery/tatra-mountains.jpeg" data-lightbox="gallery" data-title="Tatra Mountains | tatry-przewodnik.com.pl"><img src="gallery/tatra-mountains-small.jpeg" alt="Tatra Mountains"></a>
+        </div>
+    </section>
+    <script src="js/scripts.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+</body>
+
+</html>
